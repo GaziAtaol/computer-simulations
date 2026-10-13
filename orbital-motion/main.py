@@ -167,9 +167,9 @@ ax.set_title('Moon Wobble (~13 cycles/year)', fontweight='bold')
 ax.legend(fontsize=8)
 ax.grid(True, alpha=0.3)
 
-plt.suptitle('Task 5 — Improved Euler (Midpoint) Method', fontsize=16, fontweight='bold', y=0.98)
+plt.suptitle('Orbital Motion: Improved Euler (Midpoint) Method', fontsize=16, fontweight='bold', y=0.98)
 plt.tight_layout(rect=[0, 0, 1, 0.96])
-plt.savefig('task5_all.png', dpi=150)
+plt.savefig('orbital_overview.png', dpi=150)
 plt.show()
 
 print(f"v₁ (cosmic speed) = {v1:.0f} m/s")

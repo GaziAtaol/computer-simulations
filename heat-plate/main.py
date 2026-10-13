@@ -153,7 +153,7 @@ def main():
 
     info = (f'Square plate {Lx:.0f}x{Ly:.0f} cm,   '
             f'grid {N}x{N},   unknowns {ni}x{ni} = {ni*ni}')
-    create_figure(X, Y, T_full, info, 'task7_temperature.png')
+    create_figure(X, Y, T_full, info, 'temperature_distribution.png')
 
     bc = dict(bottom=T_bottom, left=T_left, top=T_top, right=T_right)
     print_summary(N, ni, A, T_full, bc)
