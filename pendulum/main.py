@@ -438,7 +438,7 @@ KE_rk, PE_rk, E_rk = calc_energy(alpha_rk, omega_rk)
 
 # ── Console output ────────────────────────────────────────────────────────────
 print("=" * 45)
-print("  PSM Assignment 3 - Pendulum Simulation")
+print("  Pendulum Simulation")
 print("=" * 45)
 print(f"  Pendulum length : {r} m")
 print(f"  Start angle     : 45 degrees")
