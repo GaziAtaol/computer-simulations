@@ -20,6 +20,12 @@ python main.py
 
 Requires Python with `tkinter`. On Homebrew Python for macOS, install it with `brew install python-tk`.
 
+The first screenshot shows a hand-drawn start pattern before the simulation is started. The second shows a running simulation at generation 161.
+
+![Game of Life with a hand-drawn start pattern, paused at generation 0](screenshot_start.png)
+
+![Game of Life running at generation 161](screenshot_running.png)
+
 ## How it works
 
 Each generation, every cell counts its eight neighbors (indices wrap with the modulo operator). A live cell survives if its neighbor count is in the survive set, and a dead cell becomes alive if its count is in the birth set. A new grid is built every generation, so all cells update at the same time.

@@ -29,6 +29,10 @@ python main.py
 
 Enter the number of iterations. A value from 5 to 7 is recommended. Requires `tkinter` (see the root README).
 
+The screenshot shows the plant after 7 iterations.
+
+![Fractal plant after 7 iterations](plant.png)
+
 ## Growth of the command string
 
 Length of the generated string for each iteration:
